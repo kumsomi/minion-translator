@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar{
+    background-color: yellow;
+    color: black;
+    width: 100%;
+    padding: 2rem 0rem;
+    margin-bottom: 3rem;
+}
+.navbar .heading{
+  text-align: center;
+}
+.sections{
+    /* margin:5rem; */
+    margin:auto;
+    width: 60%;
+}
+#btn-translate{
+    background-color: yellow;
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+textarea{
+    display: block;
+    height: 9vh;
+    width: 80%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+#output{
+    border: 1px solid black;
+    height: 9vh;
+    width: 80%;
+    margin: 1rem 0rem;
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.foot{
+    margin: auto;
+    width: 80%;
+
+}
