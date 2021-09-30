@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
 }
+
+:root{
+    --primary-color:#082032;
+    --secondary-color:#F0A500;
+}
+
 body{
+    text-align: center;
     font-family: 'Nunito', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 2rem;
 }
 .navbar{
-    background-color: yellow;
-    color: black;
+    color: var(--secondary-color);
     width: 100%;
     padding: 2rem 0rem;
     margin-bottom: 3rem;
@@ -16,33 +25,51 @@ body{
   text-align: center;
 }
 .sections{
-    /* margin:5rem; */
     margin:auto;
     width: 60%;
 }
 #btn-translate{
-    background-color: yellow;
-    color: black;
+    display: block;
+    margin:auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 0.5rem;
+    background-color: var(--primary-color);
     font-family: 'Nunito', sans-serif;
 }
 textarea{
     display: block;
     height: 9vh;
+    margin: auto;
     width: 80%;
-    margin: 1rem 0rem;
     padding: 1rem;
     font-family: 'Nunito', sans-serif;
 }
 #output{
     border: 1px solid black;
     height: 9vh;
-    width: 80%;
-    margin: 1rem 0rem;
-    padding: 1rem;
-    font-family: 'Nunito', sans-serif;
-}
-.foot{
     margin: auto;
     width: 80%;
-
+    padding: 1rem;
+    font-family: 'Nunito', sans-serif;
+    background-color: white;
+    color:black;
+}
+.footer{
+    text-align: center;
+    margin-top: 3rem;
+}
+.non-bullet{
+    list-style-type: none;
+    padding: 1rem;
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
 }
